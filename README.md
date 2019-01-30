@@ -1,7 +1,9 @@
 # PiWeather
 Raspberry Pi weather station sending updates with temperature, pressure and humidity to Twitter.
 
-If you want to add this script to cron, add python shebang at the beggining:  
+You should use your own api keys in place of "password" is script.
+
+If you want to add this script to cron add python shebang at the beggining:  
 ```
 #!/usr/bin/env python3
 ```

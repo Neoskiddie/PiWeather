@@ -7,5 +7,14 @@ If you want to add this script to cron, add python shebang at the beggining:
 ```
 and make it executable with: 
 ```
-chmod u+x /path/to/script.py
+chmod u+x /path/to/thisScript.py
 ```
+Open cron 
+```
+crontab -e
+```
+and add:
+```
+*/30 * * * * /path/to/thisScript.py 
+```
+It will run every thirty minutes

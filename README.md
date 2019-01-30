@@ -1,5 +1,5 @@
 # PiWeather
-Raspberry Pi weather station sending updates with temperature, pressure and humidity of my room to Twitter.
+Raspberry Pi weather station sending updates with temperature, pressure and humidity to Twitter.
 
 If you want to add this script to cron, add python shebang at the beggining:  
 ```
